@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/shield"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/description"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+            style="@style/reset_button"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:context="com.example.android.scorekeeperapp.MainActivity">
+
+            <TextView
+                style="@style/reset_button"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/team_a"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                style="@style/reset_button"
+                android:id="@+id/team_a_score"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/team_a_score"
+                android:textSize="60sp"
+                android:textStyle="bold" />
+
+            <Button
+                style="@style/buttons_left"
+                android:onClick="addSixToA"
+                android:text="@string/touchdown" />
+
+            <Button
+                style="@style/buttons_left"
+                android:onClick="addThreeToA"
+                android:text="@string/field_goal" />
+
+            <Button
+                style="@style/buttons_left"
+                android:onClick="addTwoToA"
+                android:layout_marginStart="24dp"
+                android:text="@string/two_point_conversion" />
+
+            <Button
+                style="@style/buttons_left"
+                android:onClick="addTwoForB"
+                android:text="@string/safety" />
+
+            <Button
+                style="@style/buttons_left"
+                android:onClick="addOneToA"
+                android:text="@string/extra_point" />
+
+
+        </LinearLayout>
+
+        <!--Team B Layout-->
+
+        <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:context="com.example.android.scorekeeperapp.MainActivity">
+
+            <TextView
+                style="@style/reset_button"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/team_b"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                style="@style/reset_button"
+                android:id="@+id/team_b_score"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/team_b_score"
+                android:textSize="60sp"
+                android:textStyle="bold"/>
+
+            <Button
+                style="@style/buttons"
+                android:onClick="addSixToB"
+                android:text="@string/touchdown" />
+
+            <Button
+                style="@style/buttons"
+                android:onClick="addThreeToB"
+                android:text="@string/field_goal"/>
+
+            <Button
+                style="@style/buttons"
+                android:onClick="addTwoToB"
+                android:text="@string/two_point_conversion"/>
+
+            <Button
+                style="@style/buttons"
+                android:onClick="addTwoForA"
+                android:text="@string/safety" />
+
+            <Button
+                style="@style/buttons"
+                android:onClick="addOneToB"
+                android:text="@string/extra_point"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reset_score"
+        style="@style/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="resetScore"
+        android:text="@string/reset" />
+
+
+</RelativeLayout>
