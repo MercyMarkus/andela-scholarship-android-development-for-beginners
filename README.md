@@ -11,4 +11,4 @@ The app displays information about my favorite Co-Working Tech Hub in Kaduna Sta
 ### Implement an app to track scores between two teams within a game.
 The app tracks scores for American football games. 
 
-<img src="http://i.imgur.com/JXbG6cP.gif?1" width="270">
+<img src="http://i.imgur.com/zEFpRaf.gif?1" width="270">
