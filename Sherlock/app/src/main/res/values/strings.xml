@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Sherlock</string>
+    <string name="question_one">1. In "The Reichenbach Fall", whom does
+        watson meet in the first scene? </string>
+
+    <string name="question_one_option_1">His website manager</string>
+    <string name="question_one_option_2">His doctor</string>
+    <string name="question_one_option_3">His therapist</string>
+    <string name="question_one_option_4">His lawyer</string>
+
+    <string name="question_two">2. Which character from \"Star Trek\" does
+        Watson compare Sherlock to in "The Hounds of Baskerville"?</string>
+
+    <string name="question_two_option_1">Scottie</string>
+    <string name="question_two_option_2">Spock</string>
+    <string name="question_two_option_3">Picard</string>
+    <string name="question_two_option_4">Data</string>
+
+    <string name="question_three">3. At the beginning of episode 1, season 1,
+        Watson is seen where?</string>
+
+    <string name="question_three_option_1">Job</string>
+    <string name="question_three_option_2">Dentist\'s office</string>
+    <string name="question_three_option_3">Psychiatrist\'s office</string>
+    <string name="question_three_option_4">Publisher\'s office</string>
+
+    <string name="question_four">4. In "The Blind Banker" what is the name of Zhi
+        Zhu\'s sister?</string>
+
+    <string name="question_four_option_1">Soo Tong</string>
+    <string name="question_four_option_2">Soo Lin Yao</string>
+    <string name="question_four_option_3">General Shan</string>
+    <string name="question_four_option_4">Mrs. Hu</string>
+
+    <string name="question_five">5. When Watson first speaks of getting married,
+        who says, "What's his name?"</string>
+
+    <string name="question_five_option_1">DI Lestrade</string>
+    <string name="question_five_option_2">Mycroft</string>
+    <string name="question_five_option_3">Mrs. Hudson</string>
+    <string name="question_five_option_4">Sherlock</string>
+
+    <string name="question_six">6. In "The Great Game", who begins investigating
+        the case of Andrew West due to the unwillingness of Holmes? </string>
+
+    <string name="question_six_option_1">Watson</string>
+    <string name="question_six_option_2">Mycroft</string>
+    <string name="question_six_option_3">Carl Powers</string>
+    <string name="question_six_option_4">Sarah Sawyer</string>
+
+
+    <string name="question_seven">7. In "The Blind Banker" what object is valued
+        at nine million? </string>
+
+    <string name="question_seven_option_1">Diamond cat</string>
+    <string name="question_seven_option_2">Qing pin</string>
+    <string name="question_seven_option_3">Yellow dragon</string>
+    <string name="question_seven_option_4">Jade pin</string>
+
+    <string name="question_eight">8. Which of these words does Henry Knight dream
+        about in "The Hounds of Baskerville"? </string>
+
+    <string name="question_eight_option_1">Liberty</string>
+    <string name="question_eight_option_2">Equality</string>
+    <string name="question_eight_option_3">Sorority</string>
+    <string name="question_eight_option_4">Fraternity</string>
+
+    <string name="question_nine">9. In \"His Last Vow"\, where does Magnussen relieve himself in Sherlock's flat? </string>
+
+    <string name="question_nine_option_1">Kitchen</string>
+    <string name="question_nine_option_2">Persian slippers</string>
+    <string name="question_nine_option_3">Fireplace</string>
+    <string name="question_nine_option_4">Bedroom</string>
+
+    <string name="question_ten">10. What does Watson discover in the fridge in
+        "The Great Game"? </string>
+    <string name="question_ten_option_1">Cocaine</string>
+    <string name="question_ten_option_2">Octopus</string>
+    <string name="question_ten_option_3">A bowl</string>
+    <string name="question_ten_option_4">A head</string>#
+
+    <string name="welcome">Begin</string>
+    <string name="ensure_you_answer_all_questions">Ensure you answer all questions</string>
+    <string name="your_score_is">Your Score is </string>
+    <string name="reset">Reset</string>
+    <string name="submit">Submit</string>
+
+
+</resources>
