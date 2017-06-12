@@ -17,6 +17,7 @@ The app tracks scores for American football games.
 ### Design and implement a short quiz app about some topic you are familiar with.
 The app implements a ten question Quiz App about the British Television Series; Sherlock. 
 
-<img src="http://i.imgur.com/l9CikGb.gif" width="270">
 <img src="http://i.imgur.com/ugCVzGA.gif" width="270">
+<img src="http://i.imgur.com/l9CikGb.gif" width="270">
+
 
