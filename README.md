@@ -12,3 +12,12 @@ The app displays information about my favorite Co-Working Tech Hub in Kaduna Sta
 The app tracks scores for American football games. 
 
 <img src="http://i.imgur.com/zEFpRaf.gif?1" width="270">
+
+## Project 3: [Quiz App](https://github.com/MesyMacos/andela-scholarship-android-development-for-beginners/tree/master/Sherlock)
+### Design and implement a short quiz app about some topic you are familiar with.
+The app implements a ten question Quiz App about the British Television Series; Sherlock. 
+
+<img src="http://i.imgur.com/ugCVzGA.gif" width="270">
+<img src="http://i.imgur.com/l9CikGb.gif" width="270">
+
+
