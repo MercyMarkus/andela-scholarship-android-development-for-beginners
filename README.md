@@ -20,4 +20,11 @@ The app implements a ten question Quiz App about the British Television Series; 
 <img src="http://i.imgur.com/ugCVzGA.gif" width="270">
 <img src="http://i.imgur.com/l9CikGb.gif" width="270">
 
+## Project 4: [Tour Guide App](https://github.com/MesyMacos/andela-scholarship-android-development-for-beginners/tree/master/TourKadunaCity)
+### Build an app presenting relevant information to a user who’s visiting your city
+Tour Kaduna City takes users on a trip to famous fun sites.
+
+<img src="http://i.imgur.com/Cbf7Z7w.jpg" width="270">
+<img src="http://i.imgur.com/lI7UXm6.gif" width="270">
+
 
