@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mercy.markus.tourkadunacity.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/arts_culture"
+        style="@style/category">
+        <ImageView
+            android:id="@+id/image_arts"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:src="@drawable/culture"
+            android:scaleType="center"/>
+        <TextView
+            style="@style/category_text"
+            android:text="@string/arts_culture"
+            android:layout_toRightOf="@+id/image_arts"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/food"
+        style="@style/category">
+        <ImageView
+            android:id="@+id/image_food"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:src="@drawable/food"
+            android:scaleType="center"/>
+        <TextView
+            style="@style/category_text"
+            android:text="@string/food"
+            android:layout_toRightOf="@+id/image_food"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/music"
+        style="@style/category">
+        <ImageView
+            android:id="@+id/image_music"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:src="@drawable/music"
+            android:scaleType="center"/>
+        <TextView
+            style="@style/category_text"
+            android:text="@string/music"
+            android:layout_toRightOf="@+id/image_music"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/night_life"
+        style="@style/category">
+        <ImageView
+            android:id="@+id/image_night_life"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:src="@drawable/night"
+            android:scaleType="center"/>
+        <TextView
+            style="@style/category_text"
+            android:text="@string/nightlife"
+            android:layout_toRightOf="@+id/image_night_life"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/sports"
+        style="@style/category">
+        <ImageView
+            android:id="@+id/image_sports"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:src="@drawable/sports"
+            android:scaleType="center"/>
+        <TextView
+            style="@style/category_text"
+            android:text="@string/sports"
+            android:layout_toRightOf="@+id/image_sports"/>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
