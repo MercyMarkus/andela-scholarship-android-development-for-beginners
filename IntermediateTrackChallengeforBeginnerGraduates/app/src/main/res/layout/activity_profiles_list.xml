@@ -38,6 +38,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:listitem="@layout/activity_profile_list_item" />
+        <com.srx.widget.PullToLoadView
+            android:id="@+id/pullToLoadView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
 
         <ProgressBar
             android:id="@+id/prg_bar_devs_list"

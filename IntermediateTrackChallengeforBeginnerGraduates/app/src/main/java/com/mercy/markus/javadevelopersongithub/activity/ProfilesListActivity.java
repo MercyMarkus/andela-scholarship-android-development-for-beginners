@@ -16,8 +16,8 @@ import android.widget.Toast;
 import com.mercy.markus.javadevelopersongithub.R;
 import com.mercy.markus.javadevelopersongithub.adapter.DevsAdapter;
 import com.mercy.markus.javadevelopersongithub.model.DevResponse;
-import com.mercy.markus.javadevelopersongithub.network.apiClient;
-import com.mercy.markus.javadevelopersongithub.network.apiResponse;
+import com.mercy.markus.javadevelopersongithub.network.ApiClient;
+import com.mercy.markus.javadevelopersongithub.network.ApiResponse;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -74,7 +74,7 @@ private  RecyclerView recyclerView;
 
     private void getUsersData() {
         String searchParams = "language:java location:lagos";
-        apiResponse apiService = new apiClient().getService();
+        ApiResponse apiService = new ApiClient().getService();
         Call<DevResponse> devListCall = apiService.getUserList(searchParams);
         devListCall.enqueue(new Callback<DevResponse>() {
             @Override

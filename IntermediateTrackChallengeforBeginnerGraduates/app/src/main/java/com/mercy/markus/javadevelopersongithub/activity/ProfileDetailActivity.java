@@ -17,7 +17,7 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.mercy.markus.javadevelopersongithub.R;
 import com.mercy.markus.javadevelopersongithub.model.Dev;
-import com.mercy.markus.javadevelopersongithub.utils.share;
+import com.mercy.markus.javadevelopersongithub.utils.Share;
 
 import me.saket.bettermovementmethod.BetterLinkMovementMethod;
 
@@ -86,8 +86,9 @@ public class ProfileDetailActivity extends AppCompatActivity {
 
         String message = "Check out this awesome developer @" + developer.getLogin() + ", " + developer.getHtmlUrl();
 
-        share.shareCustom(message, this);
+        Share.shareCustom(message, this);
 
     }
+
 }
 

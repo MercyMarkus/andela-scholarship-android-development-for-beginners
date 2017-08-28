@@ -32,6 +32,7 @@ dependencies {
     compile 'com.squareup.retrofit2:converter-gson:2.3.0'
     compile 'com.github.bumptech.glide:glide:4.0.0'
     compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.github.tosslife:pullloadview:1.1.0'
 
     compile 'me.saket:better-link-movement-method:1.2'
     compile 'com.android.support:customtabs:25.3.1'
