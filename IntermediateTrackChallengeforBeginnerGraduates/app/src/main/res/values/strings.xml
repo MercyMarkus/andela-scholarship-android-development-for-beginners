@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LasGidi Java Devs</string>
+    <string name="connection">No Internet Connection, Check network connectivity and try again!</string>
+    <string name="user_name">Name</string>
+    <string name="user_url">Profile Url</string>
+    <string name="dev_details">Developer Profile</string>
+    <string name="user_name_full">%s</string>
+    <string name="user_url_full">%s</string>
+    <string name="number_of_repos">%s</string>
+    <string name="github_profile">Github Profile</string>
+    <string name="developers_name">Developer\'s Name</string>
+
+</resources>
